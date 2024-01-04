@@ -1,0 +1,35 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+   
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 700px;
+    margin:20px ;
+    padding: 20px;
+}
+.card h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 15px;
+}
+.edit{
+    display: flex;
+    justify-content: space-between;
+
+}
+.edit .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 25px;
+}
