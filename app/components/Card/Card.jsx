@@ -7,22 +7,22 @@ import "./style.css"
 const Card = () => {
   return (
     <div className='main'>
-      <div className='card'>
+      <div className='carded'>
         <div className="edit">
           <h2>C++</h2>
           <div className="icon">
-            <FiEdit />
-            <MdDelete />
+            <FiEdit className='main_icon' />
+            <MdDelete className='main_icon'/>
           </div>
         </div>
         <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sit amet sit amet</p>
       </div>
-      <div className='card'>
+      <div className='carded'>
         <div className="edit">
           <h2>C++</h2>
           <div className="icon">
-            <FiEdit />
-            <MdDelete />
+            <FiEdit className='main_icon'/>
+            <MdDelete className='main_icon'/>
           </div>
         </div>
         <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sit amet sit amet</p>

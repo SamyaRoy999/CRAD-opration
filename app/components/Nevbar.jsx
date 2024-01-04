@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Nevbar() {
@@ -5,12 +6,18 @@ function Nevbar() {
         <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                <Link href={"/"}>
+                        <button className="btn  btn-ghost">
+                            ADDITEM
+                        </button>
+                    </Link>
                 </div>
                 <div className="flex-none">
-                    <button className="btn  btn-ghost">
-                        ADDITEM
-                    </button>
+                    <Link href="../../add_topic">
+                        <button className="btn  btn-ghost">
+                            ADDITEM
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

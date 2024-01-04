@@ -6,7 +6,7 @@
     justify-content: center;
 
 }
-.card{
+.carded{
    
     box-sizing: border-box;
     border: 1px solid;
@@ -14,11 +14,11 @@
     margin:20px ;
     padding: 20px;
 }
-.card h2{
+.carded h2{
     font-size: 30px;
     font-weight: bold;
 }
-.card p{
+.carded p{
     font-size: 15px;
 }
 .edit{
